@@ -1,0 +1,12 @@
+#python program for adding two numbers without using "+" operator
+def add(x,y):
+  while y!=0:
+    carry=x&y
+    x=x^y
+    y=carry<<1
+
+  return print(x)
+
+add(2,3)
+
+
