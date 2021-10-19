@@ -1,0 +1,14 @@
+print("Enter threee numbers for finging largest number")
+x=int(input())
+y=int(input())
+z=int(input())
+if(x>y):
+   if(x>z):
+     print(x,"is greater")
+   else:
+     print(z,"is geater")
+else:
+   if(y>z):
+     print(y,"is greater")
+   else:
+     print(z,"is greater")
